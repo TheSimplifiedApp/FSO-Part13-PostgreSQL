@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx1Y2FzQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2Nzg3OTUyNzZ9.nK3mixxnT8OLkXgdDdEysnzHsFaUGgoIA6cNbg0kpNc
+
+{
+  "author": "Lucas",
+  "url": "https://www.mysql.com/",
+  "title": "MySQL",
+  "year": 2023
+}
+
+
+# {
+#   "author": "Lucas",
+#   "url": "https://www.youtube.com/"
+# }

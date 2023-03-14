@@ -1,0 +1,6 @@
+PUT http://localhost:3001/api/users/disable@gmail.com
+Content-Type: application/json
+
+{
+  "username": "root@gmail.com"
+}
